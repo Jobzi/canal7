@@ -55,7 +55,12 @@ a {
   outline: none;
 }
 
-
+img{
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  
+}
 /*---------------------------------------
     General               
 -----------------------------------------*/
@@ -530,7 +535,7 @@ footer {
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/tvguaranda/contacto-bg.jpg') 30% 0 repeat-y fixed;
+    background: url('../images/tvguaranda/contacto-bg.jpeg') 30% 0 repeat-y fixed;
     background-size: cover;
     background-position: bottom;
     padding-top: 7rem;
