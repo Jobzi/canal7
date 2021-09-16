@@ -315,9 +315,18 @@ footer {
   min-height: 100vh;
   z-index: 1;
 }
+.notice-inframe{
+  width: 500px;
+  height: 350px;
+}
 @media screen and (max-width: 768px) {
   .video-bg {
    display: none;
+  }
+  
+  .notice-inframe{
+    width: 320px;
+    height: 320px;
   }
 }
 .overlay {
